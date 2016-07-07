@@ -1,17 +1,17 @@
 {
-  "name": "html-start",
+  "name": "av39",
   "version": "0.1.0",
   "private": true,
   "description": "",
-  "author": "Konstantin Filobok",
+  "author": "feelman",
   "repository": {
     "type": "git",
-    "url": "git@github.com:feelman/html-start.git"
+    "url": "git@github.com:feelman/av39.git"
   },
   "bugs": {
-    "url": "https://github.com/feelman/html-start/issues"
+    "url": "https://github.com/feelman/av39/issues"
   },
-  "homepage": "https://github.com/feelman/html-start",
+  "homepage": "https://github.com/feelman/av39",
   "devDependencies": {
     "autoprefixer": "6.3.6",
     "editorconfig-tools": "0.1.1",
