@@ -7,6 +7,15 @@
     <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
+    <svg style="display: none;">
+      <symbol viewBox="0 0 32 32" id="mail">
+        <path d="M28,5H4C1.791,5,0,6.792,0,9v13c0,2.209,1.791,4,4,4h24c2.209,0,4-1.791,4-4V9
+	    C32,6.792,30.209,5,28,5z M2,10.25l6.999,5.25L2,20.75V10.25z M30,22c0,1.104-0.898,2-2,2H4c-1.103,0-2-0.896-2-2l7.832-5.875
+	    l4.368,3.277c0.533,0.397,1.166,0.6,1.8,0.6c0.633,0,1.266-0.201,1.799-0.6l4.369-3.277L30,22L30,22z M30,20.75l-7-5.25l7-5.25
+	    V20.75z M17.199,18.602c-0.35,0.263-0.763,0.4-1.199,0.4s-0.851-0.139-1.2-0.4L10.665,15.5l-0.833-0.625L2,9.001V9
+	    c0-1.103,0.897-2,2-2h24c1.102,0,2,0.897,2,2L17.199,18.602z"/>
+      </symbol>
+    </svg>
     <header class="page-header">
       <div class="page-header__wrapper">
         <div class="page-header__logo">Автострахование</div>
@@ -26,7 +35,12 @@
         <div class="page-header__tel">
           <div class="page-header__tel-main">+7 (4012) 752-007</div>
           <div class="page-header__tel-desc">
-            <a href="#">Заказать обратный звонок</a>
+            <a href="mailto:mail@autovopros39.ru">
+              <svg class="page-header__mail" width="24" height="24">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail"></use>
+              </svg>
+            </a>
+            <a class="page-header__tel-url" href="#">Заказать обратный звонок</a>
           </div>
         </div>
       </div>
@@ -34,13 +48,13 @@
     <main>
       <article class="top-block">
         <div class="top-block__wrapper">
-          <h1 class="top-block__title">Зеленые карты, ОСАГО, диагностические карты, страхование ВЗР в Калининграде</h1>
+          <h1 class="top-block__title">Зеленые карты, ОСАГО, диагностические карты, страхование ВЗР, договора купли-продажи ТС в Калининграде</h1>
           <div class="top-block__content">
             <div class="top-block__image"><img src="img/top-image.png"></div>
             <div class="top-block__feedback">
               <div class="top-block__feedback-title">АКЦИЯ!!!</div>
               <div class="top-block__feedback-info">Зеленая карта всего за</div>
-              <span class="top-block__feedback-info-price">800р!</span>
+              <span class="top-block__feedback-info-price">900р!</span>
               <form class="top-block__form" method="post">
                 <div class="top-block__form-name">
                   <input type="text" name="name" placeholder="Ваше имя">
@@ -63,19 +77,19 @@
             <table>
               <tr>
                 <td>15 дней</td>
-                <td>800р</td>
+                <td>950р</td>
               </tr>
               <tr>
                 <td>30 дней</td>
-                <td>1350р</td>
+                <td>1450р</td>
               </tr>
               <tr>
                 <td>60 дней</td>
-                <td>2300р</td>
+                <td>2400р</td>
               </tr>
               <tr>
                 <td>90 дней</td>
-                <td>2900р</td>
+                <td>3000р</td>
               </tr>
             </table>
           </div>
