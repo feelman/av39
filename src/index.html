@@ -10,14 +10,14 @@
   <body>
     <header class="page-header">
       <div class="page-header__wrapper">
-        <div class="page-header__logo">Зеленые карты</div>
+        <div class="page-header__logo">Автострахование</div>
         <nav class="main-nav">
           <ul class="main-nav__items">
             <li class="main-nav__item">
-              <a href="#advantages">Преимущества</a>
+              <a href="#price">Цены</a>
             </li>
             <li class="main-nav__item">
-              <a href="#reviews">О нас</a>
+              <a href="#order">Online заявка</a>
             </li>
             <li class="main-nav__item">
               <a href="#map">Контакты</a>
@@ -35,44 +35,135 @@
     <main>
       <article class="top-block">
         <div class="top-block__wrapper">
-          <h1 class="top-block__title">Купить Зеленую карту в Калининграде</h1>
+          <h1 class="top-block__title">Зеленые карты, ОСАГО, диагностические карты, страхование ВЗР в Калининграде</h1>
           <div class="top-block__content">
             <div class="top-block__image"><img src="img/top-image.png"></div>
             <div class="top-block__feedback">
+              <div class="top-block__feedback-title">АКЦИЯ!!!</div>
+              <div class="top-block__feedback-info">Зеленая карта всего за</div>
+              <span class="top-block__feedback-info-price">800р!</span>
               <form class="top-block__form" method="post">
-              <div class="top-block__form-name">
-                <input type="text" name="name" placeholder="Ваше имя">
-              </div>
-              <div class="top-block__form-tel">
-                <input type="text" name="tel" placeholder="Ваш телефон">
-              </div>
-              <div class="top-block__form-submit">
-                <input type="submit" value="Заказать карту">
-              </div>
-            </form>
+                <div class="top-block__form-name">
+                  <input type="text" name="name" placeholder="Ваше имя">
+                </div>
+                <div class="top-block__form-tel">
+                  <input type="text" name="tel" placeholder="Ваш телефон">
+                </div>
+                <div class="top-block__form-submit">
+                  <input type="submit" value="Заказать карту">
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </article>
-      <article class="advantages">
-        <div class="advantages__wrapper">
-          <h2 class="advantages__title">Почему нужно купить Зеленую карту у нас ?</h2>
+      <article id="price" class="price">
+        <div class="price__wrapper">
+          <h2 class="price__title">Стоимость Зеленой карты</h2>
+          <div class="price__table">
+            <table>
+              <tr>
+                <td>15 дней</td>
+                <td>800р</td>
+              </tr>
+              <tr>
+                <td>30 дней</td>
+                <td>1350р</td>
+              </tr>
+              <tr>
+                <td>60 дней</td>
+                <td>2300р</td>
+              </tr>
+              <tr>
+                <td>90 дней</td>
+                <td>2900р</td>
+              </tr>
+            </table>
+          </div>
+          <div class="price__info">
+            Приобретая у нас Зеленую карту, полис ОСАГО, диагностическую карту Вы получаете скидку на мойку вашего авто <b>15 %</b> !!!
+          </div>
         </div>
       </article>
-      <article class="reviews">
-        <div class="reviews__wrapper">
-          <h2 class="reviews__title">Отзывы о нас</h2>
+      <article id="order" class="order">
+        <div class="order__wrapper">
+          <h2 class="order__title">Online заявка</h2>
+          <div class="order__feedback">
+            <form class="order__form" method="post">
+              <div class="order__form-marka">
+                <label for="marka">Марка:</label>
+                <input id="marka" type="text" name="marka" placeholder="Dodge">
+              </div>
+              <div class="order__form-model">
+                <label for="model">Модель:</label>
+                <input id="model" type="text" name="model" placeholder="Neon">
+              </div>
+              <div class="order__form-number">
+                <label for="number">Гос. номер:</label>
+                <input id="number" type="text" name="number" placeholder="A 777 AA 39">
+              </div>
+              <div class="order__form-vin">
+                <label for="vin">VIN:</label>
+                <input id="vin" type="text" name="vin" placeholder="VIN">
+              </div>
+              <div class="order__form-name2">
+                <label for="name2">Имя (лат.):</label>
+                <input id="name2" type="text" name="name2" placeholder="Ivan">
+              </div>
+              <div class="order__form-family">
+                <label for="family">Фамилия (лат.):</label>
+                <input id="family" type="text" name="family" placeholder="Ivanov">
+              </div>
+              <div class="order__form-tel2">
+                <label for="tel2">Телефон:</label>
+                <input id="tel2" type="text" name="tel2" placeholder="+7 (921) 333-33-33">
+              </div>
+              <div class="order__form-email">
+                <label for="email">E-mail:</label>
+                <input id="email" type="text" name="email" placeholder="i.ivanov39@mail.ru">
+              </div>
+              <div class="order__form-adress">
+                <label for="adress">Адрес:</label>
+                <input id="adress" type="text" name="adress" placeholder="ул. Багратиона 100-2">
+              </div>
+              <div class="order__form-submit">
+                <input type="submit" value="Заказать карту">
+              </div>
+            </form>
+          </div>
+          <div class="order__info">
+            Доставка по городу 100р.
+            При заказе зеленой карты на 90 дней доставка по городу <b>БЕСПЛАТНО</b>!
+          </div>
         </div>
       </article>
-      <article class="map">
-        
-      </article>
-      <article class="feedback">
-        
+      <article id="map" class="map">
+        <h2 class="map__title">Контакты</h2>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w_OFDDLvN2qbcaUt_CQ8QCpdktky1WxJ&width=100%&height=400&lang=ru_RU&sourceType=constructor&scroll=true"></script>
       </article>
     </main>
     <footer class="page-footer">
-    
+      <div class="page-footer__wrapper">
+        <div class="page-footer__logo">
+          <a href="mailto:mail@autovopros39.ru">mail@autovopros39.ru</a>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav__items  main-nav__items--footer">
+            <li class="main-nav__item  main-nav__item--footer">
+              <a href="#price">Цены</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#order">Online заявка</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#map">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-footer__tel">
+          <div class="page-footer__tel-main">+7 (4012) 752-007</div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

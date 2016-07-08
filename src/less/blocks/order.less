@@ -1,0 +1,85 @@
+.order__wrapper {
+  .container();
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5e8a0f;
+}
+
+.order__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f04100;
+  text-align: center;
+}
+
+.order__feedback {
+  width: 500px;
+  height: 530px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.order__info {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.order__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.order__form label {
+  display: inline-block;
+  width: 130px;
+  color: #656462;
+}
+
+.order__form-marka input[type="text"],
+.order__form-model input[type="text"],
+.order__form-number input[type="text"],
+.order__form-vin input[type="text"],
+.order__form-name2 input[type="text"],
+.order__form-family input[type="text"],
+.order__form-tel2 input[type="text"],
+.order__form-email input[type="text"],
+.order__form-adress input[type="text"] {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  
+  &:focus {
+    outline: none;
+    border: 1px solid #000000;
+  }
+
+}
+
+.order__form-submit input[type="submit"] {
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #d83c01;
+  border: none;
+  box-shadow: 2px 2px 5px 1px #000000;
+  cursor: pointer;
+  
+  &:hover {
+    box-shadow: 2px 2px 5px 1px #494847;
+  }
+  
+  &:active {
+    outline: none;
+  }
+}
