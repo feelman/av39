@@ -2,9 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Зеленые карты, ОСАГО, диагностические карты, страхование ВЗР в Калининграде</title>
+    <title>Зеленые карты, ОСАГО, диагностические карты, страхование ВЗР, договора купли-продажи ТС в Калининграде с доставкой на дом</title>
+    <meta name="description" content="Продажа Зеленых карт в Калининграде с доставкой на дом. ул. Киевская 19б, тел. +7 (4012) 752-007. Оформить полис ОСАГО, диагностическую карту, договор купли-продажи ТС. Страхование ВЗР." />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   </head>
   <body>
     <svg style="display: none;">
@@ -40,7 +42,7 @@
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail"></use>
               </svg>
             </a>
-            <a class="page-header__tel-url" href="#">Заказать обратный звонок</a>
+            <a class="page-header__tel-url  callme_viewform" href="#">Заказать обратный звонок</a>
           </div>
         </div>
       </div>
@@ -55,7 +57,7 @@
               <div class="top-block__feedback-title">АКЦИЯ!!!</div>
               <div class="top-block__feedback-info">Зеленая карта всего за</div>
               <span class="top-block__feedback-info-price">900р!</span>
-              <form class="top-block__form" method="post">
+              <form id="ajaxform" action="" class="top-block__form" method="post">
                 <div class="top-block__form-name">
                   <input type="text" name="name" placeholder="Ваше имя">
                 </div>
@@ -102,7 +104,7 @@
         <div class="order__wrapper">
           <h2 class="order__title">Online заявка</h2>
           <div class="order__feedback">
-            <form class="order__form" method="post">
+            <form id="ajaxform2" action="" class="order__form" method="post">
               <div class="order__form-marka">
                 <label for="marka">Марка:</label>
                 <input id="marka" type="text" name="marka" placeholder="Dodge">
@@ -152,7 +154,7 @@
       </article>
       <article id="map" class="map">
         <h2 class="map__title">Контакты</h2>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w_OFDDLvN2qbcaUt_CQ8QCpdktky1WxJ&width=100%&height=400&lang=ru_RU&sourceType=constructor&scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=w_OFDDLvN2qbcaUt_CQ8QCpdktky1WxJ&width=100%&height=600&lang=ru_RU&sourceType=constructor&scroll=true"></script>
       </article>
     </main>
     <footer class="page-footer">
@@ -178,5 +180,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" charset="utf-8" src="callme/js/callme.js"></script>
   </body>
 </html>
