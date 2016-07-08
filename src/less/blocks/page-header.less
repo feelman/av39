@@ -6,14 +6,19 @@
 
 .page-header__wrapper {
   .container();
-  display: flex;
-  justify-content: space-between;
+  .clearfix();
   padding: 10px 0;
 }
 
 .page-header__logo {
+  float: left;
   margin-top: 7px;
+  margin-right: 150px;
   font-size: 26px;
+}
+
+.page-header__tel {
+  float: right
 }
 
 .page-header__tel-main {

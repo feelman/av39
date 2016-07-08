@@ -6,12 +6,13 @@
 
 .page-footer__wrapper {
   .container();
-  display: flex;
-  justify-content: space-between;
+  .clearfix();
   padding: 10px 0;
 }
 
 .page-footer__logo {
+  float: left;
+  margin-right: 150px;
   margin-top: 10px;
   font-size: 16px;
 }
@@ -19,6 +20,10 @@
 .page-footer__logo a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.page-footer__tel {
+  float: right;
 }
 
 .page-footer__tel-main {
