@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "mail@feelman.info"; //получатель уведомлений
+$to = "mail@greencard39.ru"; //получатель уведомлений
 
 // не трогать
 
