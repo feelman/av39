@@ -7,24 +7,37 @@
 }
 
 .top-block__title {
+  position: relative;
   margin: 0;
-  margin-bottom: 30px;
+  //margin-bottom: 30px;
+  margin-bottom: 50px;
   padding-top: 20px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
   color: #ffffff;
   text-align: center;
+  z-index: 100;
 }
 
 .top-block__content {
   padding-bottom: 30px;
   .clearfix();
+  z-index: 1;
 }
 
 .top-block__image {
+  position: relative;
   float: left;
   margin-right: 50px;
+}
+
+.top-block__image-happy {
+  position: absolute;
+  top: -135px;
+  left: 50px;
+  width: 300px;
+  z-index: 1;
 }
 
 .top-block__feedback {
