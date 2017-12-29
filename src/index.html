@@ -166,9 +166,28 @@
                 <label for="days">Срок:</label>
                 <input id="days" type="text" name="days" placeholder="30 дней">
               </div>
+              <div class="order__form-radio">
+                <div class="order__form-left">
+                  <label for="radio-delivery">Доставка:</label>
+                </div>
+                <div class="order__form-right">
+                  <p><input id="radio-delivery-go" name="radio-delivery" type="radio" value="radio-delivery-go" checked>Указать адрес доставки</p>
+                  <p><input id="radio-delivery-pickup" name="radio-delivery" type="radio" value="radio-delivery-pickup">Самовывоз</p>
+                </div>
+              </div>
               <div class="order__form-delivery">
                 <label for="delivery">Адрес доставки:</label>
                 <input id="delivery" type="text" name="delivery" placeholder="ул. Гагарина 20-5">
+              </div>
+              <div class="order__form-pickup-choice  order__form--noactive">
+                <div class="order__form-left">
+                  <label for="radio-delivery-pickup">Самовывоз:</label>
+                </div>
+                <div class="order__form-right">
+                  <p><input id="radio-delivery-pickup-kievskaya" name="radio-delivery-pickup" type="radio" value="radio-delivery-pickup-kievskaya">Киевская 19Б</p>
+                  <p><input id="radio-delivery-pickup-dzer" name="radio-delivery-pickup" type="radio" value="radio-delivery-pickup-dzer">Дзержинского 57Б</p>
+                  <input id="radio-delivery-pickup-total" type="text" name="radio-delivery-pickup-total" placeholder="">
+                </div>
               </div>
               <div class="order__form-submit">
                 <input type="submit" value="Заказать карту">

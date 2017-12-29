@@ -33,6 +33,34 @@
   flex-direction: column;
   margin-top: 10px;
   margin-left: 60px;
+  
+  &-radio {
+    .clearfix();
+  }
+  
+  &-left {
+    float: left;
+  }
+  
+  &-right {
+    float: left;
+    
+    & p {
+      margin-top: 0;
+    }
+  }
+  
+  &--noactive {
+    display: none;
+  }
+  
+  & input[type="radio"]:focus {
+    outline: none;
+  }
+}
+
+#radio-delivery-pickup-total {
+  display: none;
 }
 
 .order__form label {
