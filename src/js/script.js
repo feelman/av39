@@ -116,3 +116,15 @@ $(document).ready(function() { // вся мaгия пoслe зaгрузки ст
     }); */ //only Kievskaya
   
 })(jQuery);
+
+(function($) {
+  'use strict';
+
+  $('#select-bel').change(function() {
+    if(this.value) $('#day_end_bel').text($(this).find(':selected').data('days-bel'))
+  });
+  
+  $('#select-all').change(function() {
+    if(this.value) $('#day_end_all').text($(this).find(':selected').data('days-all'))
+  });
+})(jQuery);
