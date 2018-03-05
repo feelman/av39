@@ -122,3 +122,13 @@
 .small {
   font-size: .8em;
 }
+
+@-moz-document url-prefix() {
+  .custom-dropdown::after {
+    content: "";
+  }
+  
+  .custom-dropdown::before {
+    background-color: transparent;
+  }
+}
