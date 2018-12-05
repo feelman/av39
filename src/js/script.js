@@ -94,26 +94,26 @@ $(document).ready(function() { // вся мaгия пoслe зaгрузки ст
   
     radioDeliveryPickup.on('click', function(){
       formDelivery.addClass('order__form--noactive');
-      //pickupChoice.removeClass('order__form--noactive'); // only Kievskaya
+      pickupChoice.removeClass('order__form--noactive');
       delivery.val('');
-      radioDeliveryPickupTotal.val('Киевская 19Б'); // only Kievskaya
+      //radioDeliveryPickupTotal.val('Киевская 19Б'); // only Kievskaya
     });
   
     radioDeliveryGo.on('click', function(){
       pickupChoice.addClass('order__form--noactive');
       formDelivery.removeClass('order__form--noactive');
       radioDeliveryPickupTotal.val('');
-      /*radioDeliveryPickupKievskaya.prop('checked', false);
-      radioDeliveryPickupDzer.prop('checked', false); */ //only Kievskaya
+      radioDeliveryPickupKievskaya.prop('checked', false);
+      radioDeliveryPickupDzer.prop('checked', false);
     });
   
-    /*radioDeliveryPickupKievskaya.on('click', function(){
+    radioDeliveryPickupKievskaya.on('click', function(){
       radioDeliveryPickupTotal.val('Киевская 19Б');
     });
   
     radioDeliveryPickupDzer.on('click', function(){
-      radioDeliveryPickupTotal.val('Дзержинского 57Б');
-    }); */ //only Kievskaya
+      radioDeliveryPickupTotal.val('Фрунзе 6Б');
+    });
   
 })(jQuery);
 
