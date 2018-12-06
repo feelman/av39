@@ -112,7 +112,7 @@ $(document).ready(function() { // вся мaгия пoслe зaгрузки ст
     });
   
     radioDeliveryPickupDzer.on('click', function(){
-      radioDeliveryPickupTotal.val('Фрунзе 6Б');
+      radioDeliveryPickupTotal.val('Фрунзе 6В');
     });
   
 })(jQuery);
